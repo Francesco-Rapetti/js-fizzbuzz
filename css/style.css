@@ -12,6 +12,18 @@ body {
     background-attachment: fixed;
 }
 
+h1 {
+    font-size: 50px!important;
+    font-weight: 600!important;
+    color: #dd4a14!important;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 100px!important;
+    }
+}
+
 .glass {
     display: flex;
     justify-content: center;
